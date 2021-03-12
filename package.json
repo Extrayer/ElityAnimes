@@ -1,0 +1,15 @@
+{
+  "name": "StreamingV1",
+  "version": "1.0.0",
+  "description": "Regarder tous les épisodes de vos animes en streaming VOSTFR et VF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Extrayer",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}

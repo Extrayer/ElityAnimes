@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#181818">
+  	<meta name="author" content="Extrayer">
+  	<meta name="description" content="Regarder tous les épisodes de vos animes en streaming VOSTFR et VF.">
+  	<meta property="og:type" content="website">
+  	<meta property="og:title" content="ElityAnimes - Votre univers animes et manga VostFr et VF.">
+  	<meta property="og:description" content="Regarder tous les épisodes de vos animes en streaming VOSTFR et VF.">
+  	<meta property="og:url" content="{{page.url}}">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+    <title>ElityAnimes - Votre univers animes et manga VostFr et VF.</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <i class="fas fa-home-alt"></i>
+        </div>
+        <div class="search_box">
+            <input type="text" class="input" placeholder="Rechercher" id="myinput">
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="info">
+            <i class="fas fa-bell"></i>
+        </div>
+    </div>
+    <div class="container">
+
+        {%- for post in collections.poster -%}
+        <div class="box" onclick="window.location.href = '{{post.data.link}}';">
+            <div class="div_icon">
+                <img src="{{post.data.image}}"/>
+            </div>
+            <div class="title">
+                <h1>{{post.data.title}}</h1>
+            </div>
+            <div class="description">
+                <p>{{post.data.cc}} - {{post.data.nb_saison}} saison(s)</p>
+            </div>
+        </div>  
+        {%- endfor -%}
+            
+    </div>
+
+
+
+</body>
+</html>
