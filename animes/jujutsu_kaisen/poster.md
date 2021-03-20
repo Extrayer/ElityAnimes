@@ -2,7 +2,7 @@
 tags: poster
 
 image: img\jujutsu_banner.png
-title: JUJUTSU KAISEN
+title: Jujutsu Kaisen
 cc: VostFr 
 nb_saison: 1
 
