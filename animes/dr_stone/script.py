@@ -14,9 +14,9 @@ compteur = 0
 
 for i in range(depart,number+1):
     if len(str(i)) == 1:
-    	i = '0' + str(i)
+    	i2 = '0' + str(i)
     
-    filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + str(i) + '-' + cc
+    filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + str(i2) + '-' + cc
 
     	
 
