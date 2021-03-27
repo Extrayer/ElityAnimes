@@ -6,5 +6,5 @@ title: Jujutsu Kaisen
 cc: VostFr 
 nb_saison: 1
 
-link: animes/jujutsu_kaisen/01
+link: animes/jujutsu_kaisen/JujutsuKaisen-saison-1-01-VostFr
 ---
