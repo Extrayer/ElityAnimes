@@ -3,9 +3,9 @@ layout: lecteur.njk
 tags : stone
 
 title : Dr. Stone
-episode : 021
+episode : 02
 saison : 1
-iframe : https://dood.to/e/c25ab5a0yq2j
+iframe : https://dood.to/e/n6rffzqes96y
 
 cc :  VostFr
 ---

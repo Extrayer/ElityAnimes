@@ -14,11 +14,10 @@ compteur = 0
 
 for i in range(depart,number+1):
     if len(str(i)) == 1:
-        filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + '00' + str(i) + '-' + cc
-        i = '00' + str(i)
-    elif len(str(i)) == 2:
-        filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + '0' + str(i) + '-' + cc
-        i = '0' + str(i)
+    	i = '0' + str(i)
+    
+    filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + str(i) + '-' + cc
+
     	
 
     File = open(str(filename)+".md", "w+")

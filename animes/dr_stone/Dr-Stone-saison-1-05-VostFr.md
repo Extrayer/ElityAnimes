@@ -3,9 +3,9 @@ layout: lecteur.njk
 tags : stone
 
 title : Dr. Stone
-episode : 006
+episode : 05
 saison : 1
-iframe : https://dood.to/e/qr45d6zo4459
+iframe : https://dood.to/e/hjxri4b0fdqa
 
 cc :  VostFr
 ---

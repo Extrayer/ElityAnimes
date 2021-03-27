@@ -3,9 +3,9 @@ layout: lecteur.njk
 tags : stone
 
 title : Dr. Stone
-episode : 008
+episode : 04
 saison : 1
-iframe : https://dood.so/e/n2y03am4phdp
+iframe : https://dood.to/e/cgp3pnorentt
 
 cc :  VostFr
 ---
