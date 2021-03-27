@@ -10,7 +10,9 @@ cc = str(input("cc ? : "))
 
 for i in range(depart,number+1):
     if len(str(i)) == 1:
-        i = '0' + str(i)
+        i = title.replace(" ","")+'-'+ 'saison' + '-' + saison + '-' + '00' + str(i) + '-' + cc
+    elif len(str(i)) == 2:
+        i = title.replace(" ","")+'-'+ 'saison' + '-' + saison + '-' + '0' + str(i) + '-' + cc
     
 
     File = open(str(i)+".md", "w+")
@@ -25,7 +27,6 @@ iframe :
 cc :  {cc}
     
 ---''')
-
 
 
 
