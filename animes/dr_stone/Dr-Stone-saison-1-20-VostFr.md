@@ -3,9 +3,9 @@ layout: lecteur.njk
 tags : stone
 
 title : Dr. Stone
-episode : 9
+episode : 20
 saison : 1
-iframe : https://dood.to/e/61kd5wnz5hd7
+iframe : https://dood.to/e/35l6e2uj36dw
 
 cc :  VostFr
 ---

@@ -12,16 +12,17 @@ link = link.readlines()
 
 compteur = 0
 
-for i in range(depart,number+1):
-    if len(str(i)) == 1:
-    	i2 = '0' + str(i)
-    
-    filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + str(i2) + '-' + cc
+for i in range(depart, number+1):
+	ep = i
 
-    	
+	if len(str(i)) == 1:
+		ep = '0' + str(i)
 
-    File = open(str(filename)+".md", "w+")
-    File.write(f'''---
+	filename = title.replace(" ","").replace('.','-')+'-'+ 'saison' + '-' + saison + '-' + str(ep) + '-' + cc
+
+	File = open(str(filename)+".md", "w+")
+	File.write(
+f'''---
 layout: lecteur.njk
 tags : {tags}
 
@@ -30,9 +31,6 @@ episode : {i}
 saison : {saison}
 iframe : {link[compteur]}
 cc :  {cc}
----''')
-    compteur += 1
-
-
-
-
+---'''
+)
+	compteur += 1

@@ -3,9 +3,9 @@ layout: lecteur.njk
 tags : stone
 
 title : Dr. Stone
-episode : 9
+episode : 16
 saison : 1
-iframe : https://dood.to/e/61kd5wnz5hd7
+iframe : https://dood.so/e/z3t6wpmzhdo1
 
 cc :  VostFr
 ---
